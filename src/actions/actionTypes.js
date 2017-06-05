@@ -1,0 +1,20 @@
+/**
+ * Created by bstojchevski on 5/31/2017.
+ */
+
+//COURSE(s)
+export const CREATE_COURSE_SUCCESS = "CREATE_COURSE_SUCCESS";
+export const UPDATE_COURSE_SUCCESS = "UPDATE_COURSE_SUCCESS";
+export const EDIT_COURSE           = "EDIT_COURSE";
+export const DELETE_COURSE         = "DELETE_COURSE";
+export const LOAD_COURSES_SUCCESS  = "LOAD_COURSES_SUCCESS";
+export const LOAD_COURSES_ERROR    = "LOAD_COURSES_ERROR";
+export const LOAD_COURSES_FAILURE  = "LOAD_COURSES_FAILURE";
+
+//AUTHOR(s)
+export const INSERT_AUTHOR        = "INSERT_AUTHOR";
+export const LOAD_AUTHORS_SUCCESS = "LOAD_AUTHORS_SUCCESS";
+
+//AJAX ASYNC CALL(s)
+export const BEGIN_AJAX_CALL = "BEGIN_AJAX_CALL";
+export const AJAX_CALL_ERROR = "AJAX_CALL_ERROR";
