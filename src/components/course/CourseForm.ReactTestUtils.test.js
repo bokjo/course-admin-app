@@ -1,6 +1,6 @@
 import React, { PropTypes } from "react";
 import expect               from "expect";
-import TestUtils            from "react-addons-test-utils";
+import TestUtils            from "react-dom/test-utils";
 import CourseForm           from "./CourseForm";
 
 function setup(saving) {

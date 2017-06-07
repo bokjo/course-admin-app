@@ -41,10 +41,9 @@ const CourseForm = ({course, allAuthors, onSave, onChange, saving, errors}) => {
         />
 
         <input
-          name="submit"
+          type="submit"
           disabled={saving}
           onClick={onSave}
-          onChange={onChange}
           className="btn btn-primary"
           value={saving ? "Saving..." : "Save"}
         />

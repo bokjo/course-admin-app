@@ -6,7 +6,7 @@ const ContactForm = (props) => {
         <h1>Contact Form Goes Here...</h1>
       </div>
     );
-}
+};
 
 ContactForm.propTypes = {
     //myProp: PropTypes.string.isRequired

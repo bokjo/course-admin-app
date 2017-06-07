@@ -1,7 +1,7 @@
 import React              from "react";
 import expect             from "expect";
-import {mount, shallow} from "enzyme";
-import TestUtils          from "react-addons-test-utils";
+import { mount, shallow } from "enzyme";
+import TestUtils          from "react-dom/test-utils";
 import CourseForm         from "./CourseForm";
 
 function setup(saving) {
@@ -11,7 +11,7 @@ function setup(saving) {
     onChange: () => {}
   };
 
-  return shallow(<CourseForm {...props} />)
+  return shallow(<CourseForm {...props} />);
 }
 
 describe("Course Form via Enzyme", () => {
