@@ -91,7 +91,7 @@
     "babel-preset-react-hmre": "~1.1.1",
     "babel-register": "~6.8.0",
     "bootstrap-loader": "2.1.0",
-    "bootstrap-sass": "3.3.7",
+    "bootstrap-sass": "3.4.1",
     "cheerio": "~0.22.0",
     "colors": "~1.1.2",
     "compression": "~1.6.1",
